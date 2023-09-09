@@ -1,0 +1,335 @@
+/* midle section------------------ */
+
+@media (max-width:1200px) {
+
+
+  .list-box {
+    width: 200px;
+    height: 140px;
+  }
+
+
+  .list-view {
+    flex-direction: column;
+  }
+
+}
+
+
+
+@media (max-width:800px) {
+
+
+  .our-ratings {
+    flex-direction: column;
+    width: 70%;
+  }
+
+  .our-achivements img {
+    height: 62px;
+    width: 80px;
+  }
+
+  .our-achivements h1 {
+    font-size: 2rem;
+  }
+
+  .our-achivements h3 {
+    font-size: 1.2rem;
+  }
+}
+
+
+
+
+@media(max-width:630px) {
+
+  /* carousel section --------------------- */
+
+  .carousel-box {
+    height: 60vh;
+  }
+
+  .carousel-item img {
+    height: 55vh;
+  }
+
+  .carousel-text h5 {
+    font-size: 1.5rem;
+
+  }
+
+  .carousel-text p {
+    font-size: 0.6rem;
+  }
+
+
+  /* main services section ---------------- */
+
+  .info-card {
+    height: 130px;
+    width: 195px;
+    padding: 20px;
+  }
+
+  .info-card img {
+    height: 65px;
+    width: 75px;
+  }
+
+  .info-card h4 {
+    font-size: 0.6rem;
+  }
+
+  .container-info h4 {
+    font-size: 0.6rem;
+  }
+
+  .container-info p {
+    font-size: 0.7rem;
+  }
+
+  .container-info h1 {
+    font-size: 0.9rem;
+  }
+
+  .btn-def {
+    margin: 0px;
+    padding: 0px;
+  }
+
+  .container-info a {
+    font-size: 8px;
+    padding: 5px;
+    margin: 5px;
+  }
+
+  .btn-def a i {
+    padding: 3px;
+  }
+
+
+  /* middel section ---------------------------- */
+
+  .middle-section h6 {
+    font-size: 0.7rem;
+  }
+
+
+  .middle-section h1 {
+    font-size: 1.1rem;
+  }
+
+  .middle-section p {
+    font-size: 0.7rem;
+  }
+
+  .list-view {
+    width: 70%;
+  }
+
+  .service-list ul li i {
+    font-size: 0.8rem;
+    margin: 5px;
+  }
+
+  .service-list ul li p {
+    margin: 5px;
+    padding: 5px;
+    font-size: 0.6rem;
+  }
+
+  /* acivements box------------------ */
+
+  .our-ratings {
+    width: 70%;
+    top: -135px;
+  }
+
+
+
+  .our-achivements img {
+    height: 40px;
+    width: 60px;
+  }
+
+  .our-achivements h1 {
+    font-size: 2rem;
+  }
+
+  .our-achivements h3 {
+    font-size: .8rem;
+  }
+
+  /* service card section----------------------------------------------------------- */
+
+
+  .card-box-heading h2 {
+    font-size: 0.7rem;
+  }
+
+  .card-box-heading h1 {
+    font-size: 1.1rem;
+  }
+
+  .service-card {
+    margin: 15px;
+    width: 200px;
+    height: 190px;
+  }
+
+  .service-card-img {
+    width: 100%;
+    height: 160px;
+  }
+
+  .hover-img h3 {
+    font-size: .6rem;
+  }
+
+  .service-card:hover .hover-img {
+    top: -160px;
+  }
+
+  .service-card h1 {
+    margin: -3px;
+    padding: 4px;
+    font-size: 1.2rem;
+  }
+
+  /* * accordian section---------------------------------------------------------------- */
+  */ .accordion-container-box {
+    width: 70%;
+    border-radius: 15px;
+    border: solid 0.5px #c198d9;
+    background: transparent;
+    backdrop-filter: blur(5px);
+    margin: auto;
+  }
+
+  .why-choose-us {
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+  }
+
+  .why-choose-us h3 {
+    color: white;
+    font-size: 1.1rem;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  .why-choose-us h1 {
+    color: white;
+    font-size: 2rem;
+    margin: 5px;
+    padding: 5px;
+  }
+
+  /* accordian section---------------------------------------------------------------- */
+
+
+  .why-choose-us h3 {
+    color: white;
+    font-size: 0.6rem;
+  }
+
+  .why-choose-us h1 {
+    font-size: 1.1rem;
+  }
+}
+
+
+@media(max-width:475px) {
+
+  .info-card {
+    height: 120px;
+    width: 165px;
+    padding: 12px;
+  }
+
+
+  .info-card img {
+    height: 50px;
+    width: 80px;
+  }
+
+
+
+  .info-card h4 {
+    font-size: 0.6rem;
+    text-align: center;
+  }
+
+
+
+  .middle-section {
+    width: 80vw;
+  }
+
+  .list-box {
+    width: 160px;
+    height: 110px;
+    margin: 0px;
+  }
+
+  .service-list {
+    margin: 0px;
+    padding: 2px;
+  }
+
+  .our-ratings {
+    width: 80%;
+  }
+
+  .our-achivements img {
+    height: 30px;
+    width: 50px;
+  }
+
+  .our-achivements h1 {
+    font-size: 1.5rem;
+  }
+
+  .our-achivements h3 {
+    font-size: 0.5rem;
+  }
+
+}
+
+
+
+@media (max-width:330px) {
+
+  .card-box {
+    width: 75%;
+  }
+
+  .service-card {
+    margin: 15px;
+    width: 170px;
+    height: 180px;
+  }
+
+  .service-card-img {
+    width: 100%;
+    height: 150px;
+  }
+
+  .hover-img h3 {
+    font-size: .6rem;
+  }
+
+  .service-card:hover .hover-img {
+    top: -155px;
+  }
+
+  .service-card h1 {
+    margin: -3px;
+    padding: 4px;
+    font-size: 1rem;
+  }
+
+
+}
